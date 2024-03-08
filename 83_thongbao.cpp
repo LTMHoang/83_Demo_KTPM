@@ -3,7 +3,7 @@ using namespace std;
 
 int main() 
 {
-	cout << "Hello, day la Hoang voi STT 83";
+	cout << "Hello, 83 dang tao conflict tren nhanh 83_tester";
 
 	cout << "Hello, 83 vua tao nhanh moi";
 
