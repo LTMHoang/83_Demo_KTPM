@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_Hoang_Calculator", "83_Hoang_Calculator\83_Hoang_Calculator.csproj", "{6942ACFC-7EF6-423A-BE1B-2B4CFFBC1A50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "83_CalculatorTester", "83_CalculatorTester\83_CalculatorTester.csproj", "{C6A89782-1E2E-4C65-B25B-63A5965A9157}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6942ACFC-7EF6-423A-BE1B-2B4CFFBC1A50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6942ACFC-7EF6-423A-BE1B-2B4CFFBC1A50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6942ACFC-7EF6-423A-BE1B-2B4CFFBC1A50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6942ACFC-7EF6-423A-BE1B-2B4CFFBC1A50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A89782-1E2E-4C65-B25B-63A5965A9157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A89782-1E2E-4C65-B25B-63A5965A9157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A89782-1E2E-4C65-B25B-63A5965A9157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A89782-1E2E-4C65-B25B-63A5965A9157}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {425C6131-E8DA-44A7-B83D-7D6020793150}
+	EndGlobalSection
+EndGlobal
