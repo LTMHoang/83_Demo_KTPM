@@ -1,0 +1,10 @@
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\bin\Debug\83_Hoang_Calculator.exe.config
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\bin\Debug\83_Hoang_Calculator.exe
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\bin\Debug\83_Hoang_Calculator.pdb
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\Calculator_83_Hoang.csproj.AssemblyReference.cache
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\_83_Hoang_Calculator.Form1.resources
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\_83_Hoang_Calculator.Properties.Resources.resources
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\Calculator_83_Hoang.csproj.GenerateResource.cache
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\Calculator_83_Hoang.csproj.CoreCompileInputs.cache
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\83_Hoang_Calculator.exe
+D:\83_Demo_KTPM\Nunit\83_Hoang_Calculator\83_Hoang_Calculator\obj\Debug\83_Hoang_Calculator.pdb

@@ -12,11 +12,11 @@ namespace _83_CalculatorTester
     //    {
     //    }
     //}
-    public class UnitTest_83 
+    public class UnitTest_83
     {
         private Calculation_83 c_83;
         [TestInitialize] //thiết lập dữ liệu dùng chung cho TC
-        public void SetUp_83() 
+        public void SetUp_83()
         {
             c_83 = new Calculation_83(10, 5);
         }
@@ -56,6 +56,7 @@ namespace _83_CalculatorTester
             Assert.AreEqual(expected_83, actual_83);
         }
 
+        [TestMethod]
         [ExpectedException(typeof(DivideByZeroException))]
         public void Test_ChiaZero_83()
         {
