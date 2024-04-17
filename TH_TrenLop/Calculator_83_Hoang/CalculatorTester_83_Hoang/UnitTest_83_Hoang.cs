@@ -64,7 +64,7 @@ namespace CalculatorTester_83_Hoang
         public TestContext TestContext { get; set; }
 
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
-                    @".\Data_83_Hoang\TestData_83_Hoang.csv", "TestData_83_Hoang#csv", 
+                    "E:\\MY_STUDY\\CODE\\C#\\83_Demo_KTPM\\TH_TrenLop\\Calculator_83_Hoang\\CalculatorTester_83_Hoang\\Data_83_Hoang\\TestData_83_Hoang.csv", "TestData_83_Hoang#csv",
             DataAccessMethod.Sequential)]
 
         //Test với trường hợp cộng
@@ -82,7 +82,8 @@ namespace CalculatorTester_83_Hoang
 
         //Bài 1
         [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
-                    @".\Data_83_Hoang\DataTest_cotToanTu.csv", "DataTest_cotToanTu#csv", 
+                    "E:\\MY_STUDY\\CODE\\C#\\83_Demo_KTPM\\TH_TrenLop\\Calculator_83_Hoang\\CalculatorTester_83_Hoang\\Data_83_Hoang\\DataTest_cotToantu.csv",
+                    "DataTest_cotToanTu#csv",
             DataAccessMethod.Sequential)]
 
         [TestMethod]
@@ -100,13 +101,19 @@ namespace CalculatorTester_83_Hoang
         }
 
         //Bài 2
-        //[DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
-        //            @".\Data_83_Hoang\DataTest_cotToanTu.csv", "DataTest_cotToanTu#csv",
-        //    DataAccessMethod.Sequential)]
-        //[TestMethod]
-        //public void TestWithDataSource_Bai2_83_Hoang()
-        //{
-            
-        //}
+        [DataSource("Microsoft.VisualStudio.TestTools.DataSource.CSV",
+                    "E:\\MY_STUDY\\CODE\\C#\\83_Demo_KTPM\\TH_TrenLop\\Calculator_83_Hoang\\CalculatorTester_83_Hoang\\Data_83_Hoang\\TestData_Xn_83_Hoang.csv", "TestData_Xn_83_Hoang#csv",
+            DataAccessMethod.Sequential)]
+        [TestMethod]
+        public void TestWithDataSource_Bai2_83_Hoang()
+        {
+            double x_83_Hoang = double.Parse(TestContext.DataRow[0].ToString());
+            int n_83_Hoang = int.Parse(TestContext.DataRow[1].ToString());
+
+            double expected_83_Hoang = double.Parse(TestContext.DataRow[2].ToString());
+
+            double actual_83_Hoang = Power_83_Hoang.Power_83(x_83_Hoang, n_83_Hoang);
+            Assert.AreEqual(expected_83_Hoang, actual_83_Hoang);
+        }
     }
 }

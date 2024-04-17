@@ -1,0 +1,10 @@
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\bin\Debug\Calculator_83_Hoang.exe.config
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\bin\Debug\Calculator_83_Hoang.exe
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\bin\Debug\Calculator_83_Hoang.pdb
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.csproj.AssemblyReference.cache
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.Form1.resources
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.Properties.Resources.resources
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.csproj.GenerateResource.cache
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.csproj.CoreCompileInputs.cache
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.exe
+D:\83_Demo_KTPM\TH_TrenLop\Calculator_83_Hoang\Calculator_83_Hoang\obj\Debug\Calculator_83_Hoang.pdb

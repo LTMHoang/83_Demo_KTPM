@@ -60,6 +60,7 @@
     <None Include="Data_83_Hoang\TestData_83_Hoang.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="Data_83_Hoang\TestData_Xn_83_Hoang.csv" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
