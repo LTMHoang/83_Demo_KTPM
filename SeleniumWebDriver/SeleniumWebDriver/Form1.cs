@@ -22,34 +22,34 @@ namespace SeleniumWebDriver
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            //i, Các lệnh điều hướng
-            ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
-            chrome.HideCommandPromptWindow = true;
+            ////i, Các lệnh điều hướng
+            //ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
+            //chrome.HideCommandPromptWindow = true;
 
-            IWebDriver driver = new ChromeDriver(chrome);
+            //IWebDriver driver = new ChromeDriver(chrome);
 
-            //GoToUrl
-            driver.Navigate().GoToUrl("https://drive.google.com/drive/folders/1ahJViibCl-6m2QurTIlrnPF-AS6Zisp9");
+            ////GoToUrl
+            //driver.Navigate().GoToUrl("https://drive.google.com/drive/folders/1ahJViibCl-6m2QurTIlrnPF-AS6Zisp9");
 
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
 
-            //Back
-            driver.Navigate().Back();
+            ////Back
+            //driver.Navigate().Back();
 
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
 
-            //Forward
-            driver.Navigate().Forward();
+            ////Forward
+            //driver.Navigate().Forward();
 
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
 
-            //Refresh
-            driver.Navigate().Refresh();
+            ////Refresh
+            //driver.Navigate().Refresh();
 
-            Thread.Sleep(3000);
+            //Thread.Sleep(3000);
 
-            //Close
-            driver.Close();
+            ////Close
+            //driver.Close();
         }
 
         private void btn_Open_83_Hoang_Click(object sender, EventArgs e)
@@ -116,6 +116,78 @@ namespace SeleniumWebDriver
             ////h, Lấy page source
             //String pageSource = driver.PageSource;
             //Console.WriteLine(pageSource);
+        }
+
+        private void btn_Bai2_83_Hoang_Click(object sender, EventArgs e)
+        {
+            //Bài 2
+
+            //Điều hướng đến Google.com
+            IWebDriver driver = new ChromeDriver();
+            driver.Navigate().GoToUrl("https://www.google.com/");
+
+            //Nhập giá trị vào ô tìm kiếm
+            IWebElement element = driver.FindElement(By.Name("q"));
+            //Truyền vào 1 phần tử trên web với giá trị được nhập sẵn trên code
+            if (txt_Bai2_Url_83_Hoang.Text == "" && txt_Bai2_Input_83_Hoang.Text == "")
+                element.SendKeys("tu hoc java");
+            else //Nhập giá trị bất kỳ của 1 chuỗi sau đó truyền vào 1 phần tử trên web
+                element.SendKeys(txt_Bai2_Input_83_Hoang.Text);
+        }
+
+        private void btn_Bai3_83_Hoang_Click(object sender, EventArgs e)
+        {
+            //Bài 3
+
+            //Tắt màn hình đen cmd
+            ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
+            chrome.HideCommandPromptWindow = true;
+
+            //Điều hướng đến trang web id.ou.edu.vn
+            IWebDriver driver = new ChromeDriver(chrome);
+            driver.Navigate().GoToUrl("https://www.netflix.com/login");
+
+            //Nhập thông tin của ô tài khoản
+            IWebElement e_username = driver.FindElement(By.Name("userLoginId"));
+            e_username.SendKeys("underbargamer@gmail.com");
+
+            //Nhập thông tin của ô mật khẩu
+            IWebElement e_password = driver.FindElement(By.Name("password"));
+            e_password.SendKeys("654321hmn");
+
+            //Đăng nhập
+            IWebElement e_login = driver.FindElement(By.CssSelector(".default-ltr-cache-r033w1"));
+            e_login.Click();
+        }
+
+        private void btn_Bai4_83_Hoang_Click(object sender, EventArgs e)
+        {
+            //Bài 4
+
+            //Tắt màn hình đen cmd
+            ChromeDriverService chrome = ChromeDriverService.CreateDefaultService();
+            chrome.HideCommandPromptWindow = true;
+
+            //Điều hướng đến trang web id.ou.edu.vn
+            IWebDriver web = new ChromeDriver(chrome);
+            web.Navigate().GoToUrl("https://www.netflix.com/login");
+
+            ////Id, name
+            //web.FindElement(By.Id(":r0:")).SendKeys("underbargamer@gmail.com");
+            //web.FindElement(By.Name("password")).SendKeys("654321hmn");
+
+            ////Class name
+            //web.FindElement(By.ClassName("default-ltr-cache-fmygl2 ea3diy34")).SendKeys("test class name by 83_Hoang");
+
+            ////Linktext
+            //web.FindElement(By.LinkText("Forgot password?")).Click();
+
+            ////CSS Selector
+            //web.FindElement(By.CssSelector("input[type='email']")).SendKeys("Test email by cssselector 83_Hoang");
+            //web.FindElement(By.CssSelector("input[type='password']")).SendKeys("Test password by cssselector 83_Hoang");
+
+            ////Xpath
+            //web.FindElement(By.XPath("//*[@id=\":r0:\"]")).SendKeys("Test Xpath by 83_Hoang");
         }
     }
 }
